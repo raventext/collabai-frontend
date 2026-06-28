@@ -53,6 +53,7 @@ docker-compose up --build
 ```
 
 ## Project Structure
+```
 src/
 ├── api/
 │   └── axios.js          # Axios instance with JWT interceptors
@@ -67,7 +68,7 @@ src/
 │       └── Editor.jsx    # Main editor with WebSocket + Tiptap
 └── store/
 └── authStore.js      # Zustand auth state
-
+```
 ## Related Repositories
 
 - [collabai-backend](https://github.com/raventext/collabai-backend) — Spring Boot backend
